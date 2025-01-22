@@ -1,0 +1,6 @@
+﻿     Creating library C:\Users\Revvie\Desktop\Other srcs\POC Virtualspace\VirtualSpace POC\minhook-master\build\VC17\bin\Release\MinHook.x64.lib and object C:\Users\Revvie\Desktop\Other srcs\POC Virtualspace\VirtualSpace POC\minhook-master\build\VC17\bin\Release\MinHook.x64.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 38 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MinHook.vcxproj -> C:\Users\Revvie\Desktop\Other srcs\POC Virtualspace\VirtualSpace POC\minhook-master\build\VC17\bin\Release\MinHook.x64.dll

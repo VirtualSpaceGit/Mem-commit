@@ -1,0 +1,5 @@
+﻿  buffer.c
+  hde64.c
+  hook.c
+  trampoline.c
+  libMinHook.vcxproj -> C:\Users\Revvie\Desktop\Other srcs\POC Virtualspace\VirtualSpace POC\minhook-master\build\VC17\lib\Release\libMinHook.x64.lib
