@@ -8,15 +8,15 @@ The **SafeWrite Hook** demonstrates how to intercept file writes on a Windows sy
 
 ## **Key Highlights**
 
-- **Intercept & Queue:** Captures all file-write operations before they reach the disk.
-- **Controlled Commits:** Lets you choose to apply (commit) or discard queued data.
-- **Optional Encryption:** Keeps queued data safe in memory.
-- **Partial or Full Writes:** Commit only parts of your changes or everything at once.
+- **Intercept & Queue:** Captures all file-write operations before they reach the disk using **__minhook.__**
+- **Controlled Commits:** Lets you choose to apply (commit) or discard queued data in your sandbox.
+- **Optional Encryption:** Keeps queued data safe in memory/sandbox. Using standard XOR for POC purposes.
+- **Partial or Full Writes:** Commit only parts of your changes or everything at once, essential for debugging.
 
 ## **Simple Flow**
 
 1. **Run the Tool** – It hooks into the Windows `WriteFile` function at runtime.
-2. **Make Changes** – As you or another program attempts to write data, it gets stored (and optionally encrypted) in memory.
+2. **Make Changes** – As you or another program attempts to write data, it gets stored (and encrypted) in memory.
 3. **Choose an Action** – Commit some or all changes, or discard them altogether.
 4. **See Results** – Check the target file on disk to view the final outcome.
 
