@@ -4,7 +4,7 @@
 
 ## **Overview**
 
-The **SafeWrite Hook** demonstrates how to intercept file writes on a Windows system. Instead of writing directly to disk, changes are stored in memory until you decide whether to commit them or not. This approach allows you to test updates, modifications, or temporary data without risking permanent changes. It’s a sandbox-like mechanism that helps protect your files and system integrity. Thus, a VirtualSpace Proof Of Concept. 🤝
+The **SafeWrite Hook** demonstrates how to intercept file writes on a Windows system. Instead of writing directly to disk, changes are stored in memory until you decide whether to commit them or not. This approach allows you to test updates, modifications, or temporary data without risking permanent changes. It’s a sandbox-like mechanism that helps protect your files and system integrity. Thus, a (simple) VirtualSpace Proof Of Concept. 🤝
 
 ## **Key Highlights**
 
