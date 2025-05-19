@@ -33,5 +33,3 @@ The **SafeWrite Hook** demonstrates how to intercept file writes on a Windows sy
 ## **License**
 
 This project is released under the [MIT License](LICENSE). Feel free to fork, modify, and share!
-
----
