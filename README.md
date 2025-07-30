@@ -28,7 +28,7 @@ The **SafeWrite Hook** demonstrates how to intercept file write operations on Wi
 
 ## **Notice**
 
-⚠️ This is strictly a **Proof of Concept**. It **__does not__** represent a production-ready tool and should **not** be relied on for actual security or data protection. Use it solely for demonstration and educational purposes.
+⚠️ This is strictly a **Proof of Concept**. It **does not** represent a production-ready tool and should **not** be relied on for actual security or data protection. Use it solely for demonstration and educational purposes.
 
 ## **License**
 
