@@ -1,4 +1,4 @@
-# SafeWrite Hook POC :gear:
+# SafeWrite Hook :gear:
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
