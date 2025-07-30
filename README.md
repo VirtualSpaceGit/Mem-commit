@@ -15,7 +15,7 @@ The **SafeWrite Hook** demonstrates how to intercept file write operations on Wi
 
 ## **Simple Flow**
 
-1. **Run the Tool** – It hooks into the Windows `WriteFile` function at runtime.
+1. **Compile & Run** – It hooks into the Windows `WriteFile` function at runtime.
 2. **Make Changes** – As you or another program attempts to write data, it gets stored (and encrypted) in memory.
 3. **Choose an Action** – Commit some or all changes, or discard them altogether.
 4. **See Results** – Check the target file on disk to view the final outcome.
