@@ -26,8 +26,10 @@ The **SafeWrite Hook** demonstrates how to intercept file write operations on Wi
 3. **Choose an Action** – Commit some or all changes, or discard them altogether.
 4. **See Results** – Check the target file on disk to view the final outcome.
 
-⚠️ **Alert:** This is strictly a **Proof of Concept**. It **does not** represent a production-ready tool and should **not** be relied on for actual security or data protection. Use it solely for demonstration and educational purposes.
+## ⚠️ Disclaimer
 
-## **License**
+This is strictly a Proof of Concept. It does not represent a production-ready tool and should not be relied on for actual security or data protection. Use it solely for demonstration and educational purposes.
+
+## 📜 **License**
 
 This project is released under the [MIT License](LICENSE). Feel free to fork, modify, and share!
