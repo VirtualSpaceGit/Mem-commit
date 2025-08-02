@@ -19,7 +19,7 @@ The **SafeWrite Hook** demonstrates how to intercept file write operations on Wi
 - **Security Enthusiasts** looking at data interception techniques.
 - **Anyone** interested in controlling how data is written to disk.
 
-## 🧪**Usage**
+## 🧪 **Usage**
 
 1. **Compile & Run** – It hooks into the Windows `WriteFile` function at runtime.
 2. **Make Changes** – As you or another program attempts to write data, it gets stored (and encrypted) in memory.
