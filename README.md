@@ -1,4 +1,4 @@
-# SafeWrite Hook :gear:
+# Mem commit 🛡
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
