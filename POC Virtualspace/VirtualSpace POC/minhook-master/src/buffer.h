@@ -1,4 +1,4 @@
-﻿/*
+/*
  *  MinHook - The Minimalistic API Hooking Library for x64/x86
  *  Copyright (C) 2009-2017 Tsuda Kageyu.
  *  All rights reserved.
@@ -34,6 +34,8 @@
 #else
     #define MEMORY_SLOT_SIZE 32
 #endif
+
+#define MEMORY_BLOCK_SIZE 0x1000
 
 VOID   InitializeBuffer(VOID);
 VOID   UninitializeBuffer(VOID);
