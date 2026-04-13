@@ -91,7 +91,7 @@ int main() {
     printf("[C] Commit all, [Pn] Commit partial n, [D] Discard all, [Q] Quit\n");
 
     char input[64];
-    fgets(input, 64, stdin);
+    fgets(input, sizeof(input), stdin);
 
     if (input[0] == 'C' || input[0] == 'c') {
         g_allowWrites = true;
